@@ -18,6 +18,12 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler("", "")</identifier>
+            <parameters/>
+            <name>Rest</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.workitem.executesql.ExecuteSqlWorkItemHandler("java:/MySqlDS")</identifier>
             <parameters/>
             <name>ExecuteSQL</name>
